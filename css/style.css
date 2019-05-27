@@ -10,6 +10,15 @@ hr{
   color: white;
 }
 
+h2{
+  color: white;
+  /* display: inline; */
+}
+
+h3{
+  /* display: inline-block; */
+}
+
 #blocco{
   width: 70%;
   margin: auto;
@@ -23,11 +32,6 @@ hr{
   width: 100px;
 }
 
-h2{
-  color: white;
-  /* display: inline; */
-}
-
 .casella{
   width: 100%;
   border: solid 2px white;
@@ -35,7 +39,7 @@ h2{
   padding: 2px;
 }
 
-footer h2, p{
+footer{
   color: white;
   display: inline;
   text-align: center;
@@ -43,5 +47,5 @@ footer h2, p{
 
 #counter{
   background-color: orange;
-  border-radius: 100%;
+  border-radius: 50%;
 }
