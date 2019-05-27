@@ -1,17 +1,28 @@
+
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 body{
   background-image: url(background_theme.jpeg);
 }
 
 footer{
-
+  color: white;
+  display: inline;
+  text-align: center;
 }
 
 hr{
   color: white;
+  box-sizing: border-box;
+  margin: 5px;
 }
 
 h2{
   color: white;
+  line-height: 32px;
   /* display: inline; */
 }
 
@@ -39,13 +50,15 @@ h3{
   padding: 2px;
 }
 
-footer{
-  color: white;
-  display: inline;
-  text-align: center;
-}
-
 #counter{
   background-color: orange;
   border-radius: 50%;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.displayInLine{
+  display: inline;
 }
