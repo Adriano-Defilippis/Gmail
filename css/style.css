@@ -1,0 +1,47 @@
+body{
+  background-image: url(background_theme.jpeg);
+}
+
+footer{
+
+}
+
+hr{
+  color: white;
+}
+
+#blocco{
+  width: 70%;
+  margin: auto;
+}
+
+#corpo{
+
+}
+
+#logo{
+  width: 100px;
+}
+
+h2{
+  color: white;
+  /* display: inline; */
+}
+
+.casella{
+  width: 100%;
+  border: solid 2px white;
+  background-color: grey;
+  padding: 2px;
+}
+
+footer h2, p{
+  color: white;
+  display: inline;
+  text-align: center;
+}
+
+#counter{
+  background-color: orange;
+  border-radius: 100%;
+}
