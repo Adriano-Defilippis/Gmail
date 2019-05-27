@@ -8,6 +8,10 @@ body{
   background-image: url(background_theme.jpeg);
 }
 
+header{
+  color: white;
+}
+
 footer{
   color: white;
   display: inline;
@@ -20,9 +24,6 @@ hr{
   margin: 5px;
 }
 
-h1{
-  color: white;
-}
 
 h2{
   color: white;
@@ -54,6 +55,14 @@ h3{
   padding: 2px;
 }
 
+.letto{
+  background-color: white;
+  width: 100%;
+  border: solid 2px grey;
+  padding: 2px;
+
+}
+
 #counter{
   background-color: orange;
   border-radius: 50%;
@@ -65,4 +74,8 @@ h3{
 
 .displayInLine{
   display: inline;
+}
+
+.testoChiaro{
+  color: #eaeaea;
 }
